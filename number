@@ -1,0 +1,8 @@
+fn main() {
+    let maybe_number: Option<i32> = Some(10);
+
+    match maybe_number {
+        Some(n) => println!("The number is: {}", n),
+        None => println!("No number provided."),
+    }
+}
